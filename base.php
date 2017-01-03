@@ -52,7 +52,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'devices',
 		'events',
 		'faq',
-		'features',
+		//'features',
 		'federation',
 		'hackathon',
 		'history',

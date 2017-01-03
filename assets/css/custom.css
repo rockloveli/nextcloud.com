@@ -2318,6 +2318,10 @@ footer.page-footer {
   background: url("../img/headers/support.jpg") no-repeat;
   background-position: center; }
 
+.features-background {
+  background-color: #0082c9;
+  background-position: bottom 0 right 0; }
+
 html {
   margin-top: 0 !important; }
 

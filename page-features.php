@@ -1,9 +1,24 @@
+<div class="background features-background"> 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 topheader">
+				<h1><?php echo $l->t('Lorem ipsum dolor sit amet');?></h1>
+				<h2><?php echo $l->t('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt leo vitae lacus tristique, non sodales odio lobortis. Nulla viverra tellus sed libero semper consequat. ');?></h2>
+			</div>
+				<div class="hero--image">
+				<img src="/img/features/screen_features.png" alt="">
+			</div>
+		</div>
+	</div>
+</div>
+
+
 <?php get_template_part( 'templates/parts/title'); ?>
 <div class="sub-nav">
 	<a href="#files"><span class="avoidwrap"><?php echo $l->t('File access & sharing');?></span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#control"><span class="avoidwrap"><?php echo $l->t('Security & control');?></span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients"><span class="avoidwrap"><?php echo $l->t('Mobile & desktop clients');?></span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage"><span class="avoidwrap"><?php echo $l->t('External storage');?></span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts"><span class="avoidwrap"><?php echo $l->t('Calendar & Contacts');?></span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc"><span class="avoidwrap"><?php echo $l->t('Secure audio & video calls');?></span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice"><span class="avoidwrap"><?php echo $l->t('Collabora Online Office');?></span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#video"><span class="avoidwrap"><?php echo $l->t('Videos of Nextcloud in action');?></span></a>
 </div>
 </div>
-<div class="featurerow">
+<div class="container">
 	<div class="row ">
 		<div class="col-md-5">
 			<a href="https://demo.nextcloud.com"><img alt="Try for yourself!" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/serverwebui.png" /></a>

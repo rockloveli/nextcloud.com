@@ -15,7 +15,7 @@
 				<a class="button button--large button--arrow" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Get Nextcloud</a>');?>
 			</div>
 			<div class="col-md-6 topbanner">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/empty.png"> <!--empty image to ensure the viewport is big enough-->
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/screen_features.png"> <!--empty image to ensure the viewport is big enough-->
 			</div>
 		</div>
 	</div> 
